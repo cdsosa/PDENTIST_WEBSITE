@@ -1,0 +1,1796 @@
+/* Main CSS (Home Page)
+-------------------------------------------------- */
+* {
+     font-family: Calibri,Segoe,Segoe UI,Arial,sans-serif;
+}
+
+.img1{background:url(http://preferreddentist.com/images/responsive_banner_1.jpg) no-repeat 50% 50%}
+.img2{background:url(http://preferreddentist.com/images/responsive_banner_2.jpg) no-repeat 50% 50%}
+.img3{background:url(http://preferreddentist.com/images/responsive_banner_5.jpg) no-repeat 50% 50%}
+.img4{background:url(http://preferreddentist.com/images/responsive_banner_4.jpg) no-repeat 50% 50%}
+.imgReplace {
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background-size:cover;    
+}
+
+.responsive-image-intro {
+    display: none;
+}
+
+
+.feat-res{
+    display: none;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  letter-spacing: 1px;
+    
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #1791b8;
+}
+.footer p {
+    color: #fff;
+    font-size:.95em;
+    display: inline-block;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+/*-----Preferred Sanitizer Footer----*/
+
+.footer-ps {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #e68f2e;
+}
+.footer-ps p {
+    color: #fff;
+    font-size:.95em;
+    display: inline-block;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+
+
+
+
+.ftr-container {
+    max-width: 1674px;  /* adjust to allow for padding as needed */
+    
+}
+
+#ftr-wrap {
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    margin:0 auto;
+}
+#ftr-wrap > div {
+    display:table-cell;
+}
+#ftr-wrap > div:nth-child(1) {text-align:left;}
+#ftr-wrap > div:nth-child(2) {text-align:center;}
+#ftr-wrap > div:nth-child(3) {text-align:right;font-weight: bold;}
+
+.ftr-links ul {
+    padding: 0;
+}
+.ftr-links ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size:.95em;
+    font-weight: bold;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+.ftr-links ul li a {
+    color: #fff;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.ftr-links ul li a:hover {
+    color: #000;
+}
+
+.nav-whole {
+    max-width: 1674px;
+    margin: auto;
+    
+}
+
+
+#nav-bar {
+    display: table;
+}
+
+#social-wrap {
+    display: table-cell;
+    float: right;
+    vertical-align: middle;
+    padding-top: .5em;
+}
+
+#social-wrap p {
+    font-weight: bold;
+    color: #000000;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 12pt;
+    
+}
+
+.navbar-nav {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+}
+
+
+
+.form-inline {
+  display: table-cell;
+    
+}
+
+
+.btn-home {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-weight: bold;
+}
+
+.btn-home:hover {
+    background-color: #fff;
+    color: #1791b8;
+}
+
+.header-title {
+    text-align: center;
+    color: #1791b8;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-index-title {
+    text-align: center;
+    color: #251e1a;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.header-subtitle {
+    text-align: center;
+    color: #1791b8;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#featured-wrap {
+    max-width: 1200px;
+    margin: 2% auto;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    animation: fadein 2s; /* All modern browsers */
+}
+
+.prd-title {
+    color: #1791b8;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.prd-subtitle {
+    color: #000000;
+    font-weight: bold;
+}
+
+#products-pd {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#products-pd figure {
+    padding-right: 15px;
+}
+
+.prd-image {
+    display: table-cell;
+}
+
+.prd-image a:hover{
+    opacity: 0.3 ;
+    
+}
+
+.caption-title {
+    font-size: 26px !important;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+
+
+
+.btn-sliders {
+    display: inline-block;
+}
+
+
+.input-bar-wrap {
+    background-color: #1791b8;
+    padding: 1em;
+    opacity: 0.8;
+    position: relative;
+    z-index: -1;
+    
+}
+
+    
+.wrap-header-inputs {
+    display: table;
+    width: 100%;
+    max-width: 1674px;
+    margin: auto;
+    padding-left: 15px;
+    
+}
+
+.input-bar-wrap p {
+    color: #fff;
+    font-weight: bold;
+    display: table-cell;
+    text-align: right;
+    font-size: 18px;
+}
+
+
+/*-----------Products Page--------------*/
+.input-bar-wrap-ps {
+    background-color: #e07804;
+    padding: 1em;
+    opacity: 0.8;
+    position: relative;
+    z-index: -1;
+    
+}
+
+
+.wrap-header-inputs-ps {
+    display: table;
+    width: 100%;
+    max-width: 1674px;
+    margin: auto;
+    padding-left: 15px;
+    
+}
+
+.input-bar-wrap-ps p {
+    color: #fff;
+    font-weight: bold;
+    display: table-cell;
+    text-align: right;
+    font-size: 18px;
+}
+
+
+
+.home-inputs {
+    display: table-cell;
+}
+
+.title-inputs {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* FADE IN EFFECT --------------------------------------------------------------------------------------------------------------------------- */
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* CAROUSEL Responsive --------------------------------------------------------------------------------------------------------------------------- */
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#captioned-gallery { 
+  width: 100%; 
+  overflow: hidden; 
+  position: relative;
+  top: 75px    
+}
+figure.slider { 
+  position: relative; 
+  width: 500%;
+  font-size: 0; 
+  animation: 25s slidy infinite; 
+}
+
+figure.slider figure { 
+  width: 20%; 
+  height: auto;
+  display: inline-block;  
+  position: inherit; 
+}
+
+figure.slider img { 
+    width: 100%; 
+    height: auto; 
+}
+
+figure.slider figure figcaption { 
+  position: absolute; 
+  bottom: 0;
+  background-color: #1791b8;
+  opacity: 0.8;    
+  color: #fff; 
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;     
+  padding: 1em; 
+}
+
+#captioned-gallery {
+    display: none;
+}
+
+/* CAROUSEL --------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+#myCarousel {
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+} 
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 0px;
+  color: #5a5a5a;
+}
+
+.caption-box {
+    margin: auto;
+    max-width: 1674px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {height:600px;}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+    width: 100%;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {height:600px;}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:600px;
+object-fit: cover;
+}
+.carousel-inner > .item{padding-top:0}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 0px;
+  }
+    
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+   /* margin-bottom: 20px; */
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+/* UNIVERSAL PAGES STRUCTURE
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.pages-wrapper{
+    position: relative;
+    
+}
+
+.pages-wrap {
+    max-width: 1674px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 10px;
+        
+}
+.pg-title {
+    font-weight: bold;
+    color: #fff; 
+    padding: 0px;
+}
+
+.pg-title-color {
+    font-weight: bold;
+    color: #1791b8; 
+    padding: 0px;
+}
+.pg-title-color-ps {
+    font-weight: bold;
+    color: #e68f2e; 
+    padding: 0px;
+}
+
+.breadcrumb-color li a {
+    color: #1791b8; 
+}
+
+/* About US Page
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#about-back {
+    background-image: url(http://preferreddentist.com/images/aboutus_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-intro {
+    background-color: #fff;
+    padding: 0em 1em;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    opacity: 0.9;
+}
+
+#about-intro p {
+    color: #000000;
+}
+
+#about-quote {
+    color: #1791b8;
+    font-size: 18px;
+}
+
+#about-representative {
+    color: #00546f;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#about-wrap {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+}
+
+#about-intro, #statements-icons {
+    display: table-cell;
+    vertical-align: top;
+    overflow:hidden;   /* ADD ME */
+}
+
+#about-wrap > div:nth-child(2) {
+    padding-left: 50px;
+}
+
+#statements-icons > div:nth-child(2),#statements-icons > div:nth-child(3)  {
+     margin-top: 1em;
+}
+
+.missions {
+    display: table;
+    width:100%;    /* ADD Me. */
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 1em;
+}
+
+.icons-wrap, .info-icons-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    
+
+}
+
+.icons-wrap {
+    width: 1px;  /* ADD Me */
+}
+
+.info-icons-wrap h4 {
+    color: #00546f;
+    font-weight: bold;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+
+.info-icons-wrap p {
+    color: #000000;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.ourteam-name {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 20px;
+}
+
+#ourteam {
+    text-align: center;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+
+}
+
+.team-pictures {
+    display: inline-block;
+}
+
+#ourteam figure:nth-child(2),#ourteam figure:nth-child(3),#ourteam figure:nth-child(4),
+#ourteam figure:nth-child(5), #ourteam figure:nth-child(6), #ourteam figure:nth-child(7),
+#ourteam figure:nth-child(8),#ourteam figure:nth-child(9),#ourteam figure:nth-child(10),
+#ourteam figure:nth-child(11){
+   padding:0 15px;
+}
+
+#ourteam figure {
+  padding:0 15px;
+}
+
+
+/* Our Dentists Page
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.caption h5 {
+    font-weight: bold;
+    color: #00546f;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.dentist-info {
+    display: inline-block;
+    width:265px;
+    vertical-align: top;
+    margin: 0 1em;
+}
+
+
+.dentist-info h3, h4 {
+  color: #1791b8;
+  font-weight: bold;
+  margin: 0; 
+}
+
+.dentist-info > p:nth-child(3) {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin:0;
+}
+
+
+.dentist-info > p:nth-child(4), .dentist-info > p:nth-child(5) {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    margin:0;
+    display: block;
+}
+
+.dentist-info > p:nth-child(5) {
+    margin-bottom: 10px;
+}
+
+
+.btn-close {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-close:hover {
+    background-color: #1791b8;
+    color: #fff;
+}
+
+#ourdentist-wrap {
+        -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+}
+
+.dentist-individual {
+    display: inline-block;
+
+}
+
+
+/* Dental Health Page
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#dentalhealth-back {
+    background-image: url(http://preferreddentist.com/images/dentalhealth_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-info-box {
+    background-color: #fff;
+    opacity: 0.8;
+    padding: 1em;
+    display: inline-block;
+    min-height: 295px;
+}
+
+.div-info-box h3 {
+    color: #00546f;
+    font-weight: bold;
+}
+
+.div-info-box p {
+    color: #000000;
+    font-size: 18px;
+}
+
+#dentalhealth-wrap >.row:nth-child(1) {
+    margin-bottom: 1em;
+}
+
+#dentalhealth-wrap {
+        -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+}
+
+.blog-intro {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.blog-intro h3 {
+    color: #00546f;
+    font-weight: bold;
+}
+
+.blog-intro p {
+    color: #000;
+}
+
+.dh-title h5 {
+    color: #000;
+}
+
+/* Products Page
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#products-wrap {
+   -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+}
+
+#products-back {
+    background-image: url(http://preferreddentist.com/images/products_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#products-back-ps {
+    background-image: url(http://preferreddentist.com/images/products_back_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.intro-products {
+    background-color: #fff;
+    padding: .5em 2em;
+    opacity: 0.8;
+    color: #000000;
+}
+
+.intro-products-ps {
+    background-color: #bae5a5;
+    padding: .5em 2em;
+    opacity: 0.6;
+    color: #000000;
+}
+
+.nav-tabs-ps {
+    background-color: #bae5a5;
+    opacity: 0.6;
+}
+
+.nav-tabs-ps > li {
+    display: inline-block;
+    font: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+
+.nav-tabs-ps > li > a:hover {
+    background-color: #fff;
+    color: #fff;
+}
+
+
+.tab-content {
+    background-color: #fff;
+    opacity: 0.8;
+    margin: 1em 0;
+    width: 100%;
+}
+
+.icon-wrap {
+    display: table;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.icon-wrap-ps {
+    display: table;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.icon-wrap-ps h4 {
+    color: #e68f2e;
+    font-weight: bold;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.image, .image-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#video{
+    max-width: 560px;
+    float: left;
+}
+
+#video-text {
+    padding-left: 20px;
+    max-width: 500px;
+    float: left;
+}
+
+.image-text p {
+    margin: 0;
+    color: #000000;
+}
+
+.image, .image-text-ps {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image-text-ps p {
+    margin: 0 5px;
+    color: #000000;
+}
+
+.image-text-ps h4 {
+    color: #51945e;
+    margin: 0 5px;
+}
+
+.prd-icon-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#sonictooth:after{
+    content:"";
+    display:table;
+    clear:both;
+}   
+
+ #sonictooth > img {
+    float: left;
+    }
+
+#minisonic:after{
+    content:"";
+    display:table;
+    clear:both;
+}   
+
+ #minisonic > img {
+    float: left;
+    }
+
+.prd-icon-info {
+    display: block;
+    overflow:hidden;
+}
+
+#sonictoothheads:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#sonictoothheads > img {
+    float: left;
+}
+
+#sonictravel{
+    margin: 0 auto;
+}
+
+#sonictravel:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#sonictravel > img {
+    float: left;
+}
+
+#sonictravelplus:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#sonictravelplus > img {
+    float: left;
+}
+
+#minitoothbrush:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#minitoothbrush > img {
+    float: left;
+}
+
+#chicobag:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#chicobag > img {
+    float: left;
+}
+
+
+.product-reviews p {
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    color: #000000;
+    vertical-align: middle;
+}
+
+.product-reviews-ps p {
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    color: #000000;
+}
+
+.reviews-ps {
+        margin: 10px 20px;
+}
+
+.product-reviews span {
+    color: orange;
+    vertical-align: middle;
+}
+
+.product-reviews-ps span {
+    color: orange;
+    vertical-align: middle;
+}
+
+.product-reviews-ps h4{
+    color:#e68f2e;
+    margin: 10px auto;
+}
+
+.intro-products p:nth-child(2) {
+    font-size: 18px;
+    color: #00546f;
+    font-weight: bold;
+    
+}
+
+
+
+.prd-icon-info p a {
+    text-decoration: underline;
+}
+
+
+.plus-text h4 {
+    color: #8dc63f;
+}
+
+.media a {
+    text-decoration: underline;
+}
+
+.price-prd {
+    color: #00546f;
+    font-weight: bold;
+}
+
+#prd-buttons {
+    margin: 1em 0;
+}
+
+/* Contact Us Page
+-------------------------------------------------------------------------------------------------------------------------------------*/
+#contact-back {
+     background-image: url(http://preferreddentist.com/images/contact_back.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#contactform {
+    margin: 1em;
+    
+}
+#contactform2 {
+    margin: 1em;
+    
+}
+#contactform3 {
+    margin: 1em;
+    
+}
+
+.contact-wrap {
+    padding: 1em;
+}
+
+.title-form {
+    color: #00546f;
+    font-weight: bold;
+}
+
+.inputs {
+    border-bottom: small solid #000000;
+    border-width: 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+}
+
+.form2-inputs {
+    margin-bottom: 1em;
+}
+
+.messagebox {
+    width: 100%;
+    min-height: 150px;
+    border-bottom: small solid #000000;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.form2-msgbox {
+    min-height: 0;
+}
+
+.form-btn {
+    color: #fff;
+    background-color: #000000;
+    margin: 1em 0;
+}
+
+.form-btn:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+#contact-information {
+    background-color: #fff;
+    opacity: 0.8;
+    display: table;
+    padding: 2em;
+    width: 100%;
+}
+
+.info-pd {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 2em 4em;
+    text-align: center;
+}
+
+.info-pd span {
+    vertical-align: top;
+}
+
+.phonenumber, .email {
+   vertical-align: top;
+}
+
+.info-pd h4 {
+    color: #00546f;
+    vertical-align: bottom;
+    
+}
+
+
+.divider {
+    display: inline-block;
+    width: 0;
+    height: 5em;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+#pd-maplocation {
+    width: 100%;
+    height: 450px;
+    border: none; 
+}
+
+.thanks {
+    display: inline-block;
+     color: #00546f; 
+}
+
+.bottom-line {
+    display: none;
+}
+
+.phonenumber a:hover {
+    color: #00546f;
+}
+
+.phonenumber a, .email a {
+    text-decoration: underline;
+}
+
+
+
+/* Sitemap Page
+-------------------------------------------------------------------------------------------------------------------------------------*/
+#sitemap-wrap {
+     -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+}
+
+.links {
+    list-style-type: disc;
+    font-size: 14px;
+}
+
+.links-list-wrap h3 {
+    margin: 0;
+    color: #00546f;
+    font-weight: bold;
+}
+
+.links li a:hover {
+    color: #1791b8; 
+}
+
+.links li a {
+    text-decoration: underline;
+}
+
+.sub-list-links {
+    list-style-type: disc;
+
+}
+
+.links-list-wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sitemap-wrap div:nth-child(2) {
+    margin-right: 5em;
+}
+
+
+/* Privacy Policy
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+#privacy-wrap {
+     -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+      animation: fadein 2s; /* All modern browsers */
+}
+
+.privacy-text h3 {
+    color: #00546f;
+    font-weight: bold;
+    margin:.5em 0;
+}
+
+#privacy-wrap p {
+    color: #000;
+}
+
+.contact-link {
+    color: #00546f;
+    text-decoration: underline;
+}
+
+
+/* Your Practice Page
+-------------------------------------------------------------------------------------------------------------------------------------*/
+#yourpractice-back {
+     background-image: url(http://preferreddentist.com/images/yourpractice_back_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#yourpractice-intro {
+    background-color: #00546f;
+    opacity: 0.6;
+    padding: 1em;
+}
+
+#yourpractice-intro h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* MEDIA Queries 
+-------------------------------------------------------------------------------------------------------------------------------------*/
+/* Home Page (queries)
+--------------------------------------------*/
+
+
+@media (max-width: 1168px) {
+  #form-wrap-info {
+    display: block;
+    width: auto;
+  }
+
+    body {
+        margin-bottom: 80px;
+    }
+    
+.phonenumber-res {
+    display: block;
+}   
+   .featured-wrap {
+       padding-top: 50px;
+   }
+  
+   .title-inputs {
+     text-align: center;
+   }    
+    
+.home-forms label {
+    text-align: center;
+    display: block;
+}
+
+.navbar-header a img {
+    display: block;
+    margin: auto;
+}    
+    
+    .btn-home  {
+        margin: 1em 0;
+    }
+    
+.caption-title {text-align: center;}
+    
+.home-btn {
+        display: block;
+        margin: auto;
+    }
+    
+    .input-bar-wrap p {
+        display: block;
+        text-align: center;
+    }
+    
+    #home-inputs {
+        margin: auto;
+        max-width: 800px;
+    }
+}
+
+
+@media (max-width: 1020px) {
+
+.prd-image {
+    display: inline-block;
+}
+
+#featured-wrap {
+        margin-bottom: 130px;
+        margin-top: 100px;
+        max-width: 600px;
+    }
+    
+#products-pd {
+      padding: 0em 6em;
+    }
+    
+#ftr-wrap > div:nth-child(3) {
+        text-align: center;
+    }
+    
+#ftr-wrap > div:nth-child(1) {
+        text-align: center;
+} 
+
+#ftr-wrap {
+    margin-top: 10px;
+   }    
+     
+.pages-wrap {
+    margin-bottom: 30px;
+}
+   
+    
+}
+
+@media (max-width: 890px) {
+#ftr-wrap > div {
+    display: block;
+    }
+}
+
+@media (max-width: 1168px) {
+    
+label {
+    display: block;
+}
+}
+
+/*IMAGE SMALLER-BACKGROUND*/
+
+@media (max-width: 1128px) {
+    .responsive-image-intro {
+        display: block;
+    }
+    
+      .responsive-image-intro img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #contact-back, #dentalhealth-back, #about-back, #yourpractice-back {
+          background-image:none;
+    }
+    
+    .pg-title {
+        color: #1791b8;
+    }
+    
+    .img-circle {
+        border: 1px solid #1791b8;
+    }
+    
+    .breadcrumb > span:nth-child(1) {
+        color: #000;
+    }
+    
+    .breadcrumb > li + li:before {
+        color: #000;
+    }
+    
+}
+
+
+
+
+/* About Us (queries)
+--------------------------------------------*/
+
+@media (max-width:1120px) { 
+    
+#about-intro, #statements-icons {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+  
+#about-wrap > div:nth-child(2) {
+    padding-left: 0;
+}
+    
+.icons-wrap, .info-icons-wrap {
+    display: block;
+    margin: auto;
+    
+}
+    
+.icons-wrap {
+    width: auto;
+}    
+    
+.info-icons-wrap h4 {
+    text-align: center;
+}
+    
+.info-icons-wrap p {
+    text-align: center;
+}    
+      
+.pages-wrap {
+    margin-bottom: 100px;
+}
+    
+.pg-title {
+    text-align: center;
+}  
+    
+.breadcrumb {
+    text-align: center;
+}  
+
+#statements-icons > div:nth-child(1) {
+    margin-top: 1em;
+}        
+    
+}
+
+
+/* Our Dentists (queries)
+--------------------------------------------*/
+@media (max-width:600px) {
+    .dentist-wrap {
+        margin: auto;
+        max-width: 400px;
+    }
+
+}
+
+@media (max-width:480px) {
+    .dentist-wrap {
+        margin: auto;
+        max-width: 150px;
+    }
+
+}
+
+
+@media (max-width:680px) {
+    .dentist-info {
+     display: block;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .modal-body > img {
+        margin: auto;
+        display: block;
+    }
+
+}
+
+
+/* Dental Health (queries)
+--------------------------------------------*/
+@media (max-width:970px) {
+    
+    .dh-title {
+        text-align: center;
+    }
+    
+    .blog-intro p {
+        text-align: center;
+    }
+    
+    
+    .blog-intro h3 {
+        text-align: center;
+    }
+}
+
+
+/* Products (queries)
+--------------------------------------------*/
+
+@media (max-width:1050px) {
+    .product-reviews {
+        text-align: center;
+    }
+    
+     .product-reviews-ps {
+        text-align: center;
+    }
+    
+    .image, .image-text {
+        display: block;
+    }
+    
+    .image, .image-text-ps {
+        display: block;
+    }
+    
+    .icon-wrap {
+        display: block;
+    }
+    
+    .icon-wrap-ps {
+        display: block;
+    }
+    
+    .product-reviews p {
+        display: block;
+    }
+    .product-reviews-ps p {
+        display: block;
+        padding: 50px;
+    }
+    .product-reviews img {
+      margin: auto;
+      display: block;
+    }
+     .product-reviews-ps img {
+      margin: auto;
+      display: block;
+    }
+    
+    .prd-wrap {
+      display: block;
+      text-align: center;    
+    }
+    
+}
+
+@media (max-width:1168px) {
+    .nav-tabs {
+       padding: 0;
+        
+        }
+    .nav-tabs > li {
+        float: none;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width:1168px) {
+    #prd-buttons {
+        text-align: center;
+    }
+}
+
+@media (max-width:680px) {
+    .prd-icon-info {
+       display: inline-block;
+    }
+}
+
+
+
+}
+
+/* Terms & Privacy Queries (queries)
+--------------------------------------------*/
+
+@media (max-width:1120px) {
+    .privacy-text h3, #privacy-wrap p {text-align: center;}
+}
+
+/* Contact Us (queries)
+--------------------------------------------*/
+@media (max-width: 680px) {
+    .divider{
+        display: none;
+    }
+    
+    .info-pd {
+        display: block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin: 0;
+    }
+    
+    .bottom-line {
+        display: block;
+}
+    .contact-links li {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    
+    .contact-links {
+        padding: 0;
+    }
+    
+}
+
+/* Your Practice (queries)
+--------------------------------------------*/
+
+@media (max-width: 1168px) {
+
+#yourpractice-intro h2 {
+    text-align: center;
+}
+
+}
+
+/* Toggle Appearance (queries)
+--------------------------------------------*/
+
+@media (max-width: 1168px) {
+.navbar-header {
+        float: none;
+    }
+    
+.navbar-left,.navbar-right {
+        float: none !important;
+    }
+    
+.navbar-toggle {
+        display: block;
+    }
+    
+.navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }                                                                                                                                   
+    
+.navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+}
+    
+.navbar-collapse.collapse {
+        display: none!important;
+    }
+    
+.navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+}
+    
+.navbar-nav>li {
+    float: none;
+    display: inline-block;
+}
+    
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+.collapse.in{
+    display:block !important;
+}
+    
+#social-wrap {
+    display:block;
+    float: none;
+    padding-top:0;
+    margin: auto;
+    max-width: 200px;
+    }
+
+#input-bar-wrap {
+    margin-bottom: 50px !important;
+}    
+}
+
+@media (max-width: 780px) {
+
+.navbar-nav>li {
+    float: none;
+    display: block;
+}
+    
+#social-wrap {
+    display: block;
+    float: none;
+}
+    
+.navbar-collapse {
+   text-align: center;
+}
+    
+.navbar-nav  {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+}
+
+/* Carousel (queries)
+--------------------------------------------*/
+
+@media (max-width:1168px) {
+    #carousel-example-generic {
+        display: none;
+    }
+    
+    #captioned-gallery {
+    display: block;   
+}
+    .bar-wrap-resp {
+        display: none;
+    }
+    
+    .res-slide-title {
+        text-align: center;
+    }
+
+    
+
+}
+
+@media (max-width:480px) {
+     .res-slide-title {
+        font-size: 12px !important;
+     }
+    
+      .res-btn {
+        font-size: 12px; 
+    }
+}
