@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        margin: 0;  
+        height: 415px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(34.170833, -118.25),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        map.set('styles', [{"featureType":"all","elementType":"all","stylers":[{"saturation":-100},{"gamma":0.5}]}]);
+           // This example adds a marker to indicate the position 
+    // PA
+    var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h2 id="firstHeading" class="firstHeading">Headquarters</h2>'+
+      '<div id="bodyContent">'+
+      '<p><b>Address:</b> 1025 N. Brand Blvd Suite 301 Glendale, CA ' +
+      '</div>'+
+      '</div>';
+    
+     
+    // PA
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+    
+    
+// PA
+  var image = 'images/pdmapmarker.png';
+  var marker = new google.maps.Marker({
+    position: {lat: 34.170833, lng: -118.25},
+    map: map,
+    icon: image
+  });
+
+
+    // PA
+     marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+    
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+        
+        
+        
+        
+        
+        
+    </script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
